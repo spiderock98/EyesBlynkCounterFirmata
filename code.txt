@@ -1,0 +1,9 @@
+prerequire:
+- arduino nano
+- laptop running linux
+usage:
+- upload standard firmata to arduino nano
+- enable webcam && plug arduino nano
+- run xxxx_ui.py
+
+compile2.py: pyuic5 -x ui.ui -o ui.py
